@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchtext>=0.15.0
+flask>=2.0.0
+spacy>=3.0.0
+PyPDF2>=3.0.0
+ebooklib>=0.17.0
+beautifulsoup4>=4.0.0
+tqdm>=4.0.0

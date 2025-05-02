@@ -1,0 +1,21 @@
+{
+    "model_params": {
+        "embed_dim": 256,
+        "hidden_dim": 512,
+        "num_layers": 3,
+        "dropout": 0.2
+    },
+    "training_params": {
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "epochs": 10,
+        "seq_length": 64
+    },
+    "supported_langs": {
+        "ru": {
+            "model": "ru_core_news_sm",
+            "slang_file": "slang_ru.json",
+            "vocab_file": "vocab_ru.txt"
+        }
+    }
+}
